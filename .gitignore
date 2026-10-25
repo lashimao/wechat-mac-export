@@ -1,0 +1,13 @@
+# 绝不入库：密钥、抓取现场、明文库、导出结果、重签名副本
+keys.json
+captured.txt
+*.db
+*.db-wal
+*.db-shm
+.secret/
+.work/
+decrypted/
+exports/
+*.log
+__pycache__/
+.DS_Store
